@@ -36,6 +36,7 @@
     "should": "~3.3.0",
     "mocha": "~1.18.2",
     "concoct": "0.0.3",
+    "concoct-mustache": "0.0.2",
     "rimraf": "^2.2.6"
   }
 }
