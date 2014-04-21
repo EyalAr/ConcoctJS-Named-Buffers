@@ -1,7 +1,7 @@
 {
   "name": "concoct-named-buffers",
   "version": "0.0.1",
-  "description": "Specify paths for saving ConcoctJS buffers..",
+  "description": "Specify paths for saving ConcoctJS buffers.",
   "main": "lib/index.js",
   "scripts": {
     "test": "DEBUG=\"concoct:* -concoct:debug\" mocha -R spec ./test/tests"
