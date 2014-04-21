@@ -1,0 +1,41 @@
+{
+  "name": "concoct-named-buffers",
+  "version": "0.0.1",
+  "description": "Specify paths for saving ConcoctJS buffers..",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "DEBUG=\"concoct:* -concoct:debug\" mocha -R spec ./test/tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EyalAr/ConcoctJS-Named-Buffers.git"
+  },
+  "keywords": [
+    "concoctjs",
+    "concoct",
+    "plugin",
+    "template",
+    "compiler",
+    "content",
+    "context",
+    "load",
+    "buffer",
+    "save",
+    "path"
+  ],
+  "author": "Eyal Arubas <eyalarubas@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EyalAr/ConcoctJS-Named-Buffers/issues"
+  },
+  "homepage": "https://github.com/EyalAr/ConcoctJS-Named-Buffers",
+  "dependencies": {
+    "async": "^0.7.0"
+  },
+  "devDependencies": {
+    "should": "~3.3.0",
+    "mocha": "~1.18.2",
+    "concoct": "0.0.3",
+    "rimraf": "^2.2.6"
+  }
+}
